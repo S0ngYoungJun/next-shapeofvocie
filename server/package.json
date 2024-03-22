@@ -4,19 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec ts-node server.ts"
+    "server": "nodemon server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^5.0.0-beta.2",
-    "socket.io": "^4.7.5",
-    "ts-node": "^10.9.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   }
 }
