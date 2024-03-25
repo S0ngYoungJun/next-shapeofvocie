@@ -6,7 +6,7 @@ import { ChromePicker } from 'react-color'
 
 import { io } from 'socket.io-client'
 import { Line } from '@/utils/Line'
-const socket = io('http://localhost:3001')
+const socket = io('http://13.209.64.122:3001')
 
 interface pageProps {}
 
